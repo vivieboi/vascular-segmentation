@@ -297,7 +297,7 @@ plt.savefig(daten + best_model_name[:-4] + '_diceloss.jpg')
 plt.show()
 
 # Write epoch loss values and dice values to file.
-export_prefix = daten + '_unet'
+export_prefix = daten + '_vnet'
 export_diceloss = export_prefix + '_diceloss.txt'
 export_dicemetric = export_prefix + '_dicemetric.txt'
 
