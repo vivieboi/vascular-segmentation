@@ -291,7 +291,7 @@ for epoch in range(epochs):
 print("train completed")
 
 # Write epoch loss values and dice values to file.
-export_prefix = daten + '_unet'
+export_prefix = daten + '_segresnet'
 export_diceloss = export_prefix + '_diceloss.txt'
 export_dicemetric = export_prefix + '_dicemetric.txt'
 
